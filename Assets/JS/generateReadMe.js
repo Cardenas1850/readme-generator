@@ -1,4 +1,5 @@
 const createReadme = require('./prompt-questions.js')
+const fs = require('fs');
 
 function generateReadme() {
     return `
@@ -28,3 +29,12 @@ function generateReadme() {
     Github: ${answer.username}
     `
 }
+
+content = generateReadme;
+
+fs.writeFile('README.md', content, err => {
+    if (err) {
+        console.error(err)
+        return
+    }
+})
