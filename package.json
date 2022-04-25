@@ -7,8 +7,16 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "inquirer": "^8.2.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cardenas1850/readme-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cardenas1850/readme-generator/issues"
+  },
+  "homepage": "https://github.com/Cardenas1850/readme-generator#readme",
+  "description": ""
 }
