@@ -1,6 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const createReadme = require('./assets/js/generateReadMe');
+module.exports = generatePage;
 
 inquirer
     .prompt([{
@@ -101,4 +101,3 @@ inquirer
     .then((answer) => {
         console.log(answer);
     });
-s

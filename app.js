@@ -1,4 +1,2 @@
-const promptQuestions = ('./prompt-questions.js');
-const createReadme = ('./assets/js/generateReadMe');
-
-console.log(promptQuestions.answer);
+const createReadme = require('./prompt-questions.js');
+fs.writeFile('README.md')
