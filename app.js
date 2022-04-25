@@ -1,2 +1,2 @@
 const createReadme = require('./prompt-questions.js');
-fs.writeFile('README.md')
+//const writeFile = require('./assets/JS/generateReadMe.js')

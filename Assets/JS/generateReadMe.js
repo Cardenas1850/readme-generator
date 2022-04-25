@@ -1,6 +1,6 @@
-const questionAnswers = require('./prompt-questions.js')
+const createReadme = require('./prompt-questions.js')
 
-function generateReadme(answer) {
+function generateReadme() {
     return `
 <h1>${answer.title}</h1>
 
@@ -28,6 +28,3 @@ function generateReadme(answer) {
     Github: ${answer.username}
     `
 }
-
-
-module.exports = generateReadme;

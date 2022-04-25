@@ -1,6 +1,4 @@
-const fs = require('fs');
 const inquirer = require('inquirer');
-module.exports = generatePage;
 
 inquirer
     .prompt([{
@@ -99,5 +97,8 @@ inquirer
         }
     ])
     .then((answer) => {
-        console.log(answer);
-    });
+            console.log(answer);
+
+        }
+
+    );
